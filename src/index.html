@@ -1,0 +1,530 @@
+---
+title: "Fandoorsy | Where Luxury Meets Adventure"
+description: "Meta description for the page"
+preloadImg: "/assets/images/landing.webp"
+permalink: "/"
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+
+{% extends "layouts/base.html" %} {% block head %}
+<link rel="stylesheet" href="/assets/css/local.css" />
+<link rel="stylesheet" href="/assets/css/critical.css" />
+
+<!-- Script for Netlify Identity -->
+<script
+  defer
+  src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+></script>
+<script defer>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+{% endblock %} {% block body %}
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-997">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Elevate Your Outdoors with Fandoorsy</span>
+      <h1 class="cs-title">
+        Where <span class="cs-color">Luxury</span><br />
+        Meets
+        <span class="cs-color">Adventure</span>
+      </h1>
+      <p class="cs-text">
+        Fandoorsy invites you to explore the great outdoors in unmatched
+        splendor – where innovation, luxury, and nature harmonize to create a
+        realm of extraordinary possibilities.
+      </p>
+      <div class="cs-button-box">
+        <a href="" class="cs-button-solid">Shop</a>
+        <a href="" class="cs-button-transparent">Learn More</a>
+      </div>
+    </div>
+  </div>
+  <!-- Background Image -->
+  <!-- Background Image -->
+  <picture class="cs-background">
+    <source media="(max-width: 600px)" srcset="assets/images/landing-m.webp" />
+    <source media="(min-width: 601px)" srcset="assets/images/landing.webp" />
+    <img
+      loading="lazy"
+      decoding="async"
+      src="assets/images/landing.webp"
+      alt="restaurant"
+      width="1920"
+      height="1200"
+      aria-hidden="true"
+    />
+  </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                  Collection                  -->
+<!-- ============================================ -->
+
+<section id="collection-1552">
+  <div class="cs-container">
+    <ul class="cs-card-group">
+      <li class="cs-item cs-item-offer">
+        <div class="cs-text-wrapper">
+          <span class="cs-offer-tag">ONLY $20</span>
+          <h3 class="cs-h3">Selected Woman’s Wear</h3>
+          <span class="cs-item-text">Special seasonal offer of the month</span>
+          <a class="cs-button-solid" href="/">Shop Now</a>
+          <picture class="cs-background" aria-hidden="true">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-womens-offer-m.png
+              "
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-womens-offer.png
+              "
+            />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-womens-offer.png"
+              width="365"
+              height="201"
+            />
+          </picture>
+        </div>
+      </li>
+      <li class="cs-item">
+        <a class="cs-category" href="/">T-Shirts</a>
+        <picture class="cs-background" aria-hidden="true">
+          <source
+            media="(max-width: 600px)"
+            srcset="
+              https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-offer-tshirts.png
+            "
+          />
+          <source
+            media="(min-width: 601px)"
+            srcset="
+              https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-offer-tshirts.png
+            "
+          />
+          <img
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-offer-tshirts.png"
+            width="365"
+            height="201"
+          />
+        </picture>
+      </li>
+      <li class="cs-item">
+        <a class="cs-category" href="/">Bags</a>
+        <picture class="cs-background" aria-hidden="true">
+          <source
+            media="(max-width: 600px)"
+            srcset="
+              https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-offer-bags.png
+            "
+          />
+          <source
+            media="(min-width: 601px)"
+            srcset="
+              https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-offer-bags.png
+            "
+          />
+          <img
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-offer-bags.png"
+            width="365"
+            height="201"
+          />
+        </picture>
+      </li>
+      <li class="cs-item">
+        <a class="cs-category" href="/">Shoes</a>
+        <picture class="cs-background" aria-hidden="true">
+          <source
+            media="(max-width: 600px)"
+            srcset="
+              https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-offer-shoes.png
+            "
+          />
+          <source
+            media="(min-width: 601px)"
+            srcset="
+              https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-offer-shoes.png
+            "
+          />
+          <img
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-offer-shoes.png"
+            width="365"
+            height="201"
+          />
+        </picture>
+      </li>
+      <li class="cs-item">
+        <a class="cs-category" href="/">Accessories</a>
+        <picture class="cs-background" aria-hidden="true">
+          <source
+            media="(max-width: 600px)"
+            srcset="
+              https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-offer-accessories.png
+            "
+          />
+          <source
+            media="(min-width: 601px)"
+            srcset="
+              https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-offer-accessories.png
+            "
+          />
+          <img
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-offer-accessories.png"
+            width="365"
+            height="201"
+          />
+        </picture>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                  Side By Side                -->
+<!-- ============================================ -->
+
+<section id="sbs-1585">
+  <div class="cs-container">
+    <picture class="cs-picture">
+      <!--Mobile Image-->
+      <source
+        media="(max-width: 600px)"
+        srcset="
+          https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models.png
+        "
+      />
+      <!--Tablet and above Image-->
+      <source
+        media="(min-width: 601px)"
+        srcset="
+          https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models.png
+        "
+      />
+      <img
+        loading="lazy"
+        decoding="async"
+        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models.png"
+        alt="models"
+        width="586"
+        height="690"
+      />
+    </picture>
+    <div class="cs-content">
+      <span class="cs-topper">Our Features</span>
+      <h2 class="cs-title">
+        Accessible Wardrobe That Men Can Wear and Curate Over Time
+      </h2>
+      <ul class="cs-card-group">
+        <li class="cs-item">
+          <div class="wrapper">
+            <span class="cs-item-number">01</span>
+            <h3 class="cs-h3">Member Discount</h3>
+          </div>
+          <p class="cs-item-text">
+            It’s no secret that one person alone cannot overcome the greatest
+            humanitarian crises.
+          </p>
+        </li>
+        <li class="cs-item">
+          <div class="wrapper">
+            <span class="cs-item-number">02</span>
+            <h3 class="cs-h3">Safe Payment</h3>
+          </div>
+          <p class="cs-item-text">
+            It’s no secret that one person alone cannot overcome the greatest
+            humanitarian crises.
+          </p>
+        </li>
+        <li class="cs-item">
+          <div class="wrapper">
+            <span class="cs-item-number">03</span>
+            <h3 class="cs-h3">Shop with Confidence</h3>
+          </div>
+          <p class="cs-item-text">
+            It’s no secret that one person alone cannot overcome the greatest
+            humanitarian crises.
+          </p>
+        </li>
+        <li class="cs-item">
+          <div class="wrapper">
+            <span class="cs-item-number">04</span>
+            <h3 class="cs-h3">Money Return</h3>
+          </div>
+          <p class="cs-item-text">
+            It’s no secret that one person alone cannot overcome the greatest
+            humanitarian crises.
+          </p>
+        </li>
+      </ul>
+      <a href="" class="cs-button-solid">View All Collections</a>
+    </div>
+  </div>
+</section>
+
+<!--
+    NOTE: This Stitch has overflow on the bottom of the section and will overlap the section below it in your site. To account for this overlap, add this padding top to the 1024px (64rem) media query for the seciton below it:
+
+    /* 150px - 200px */
+    padding-top: clamp(9.375rem, 16vw, 12.5rem);
+
+    If there is not 1024px media query, create one and add this padding top to the #ID of the section.  This will help it account for the overlap from this section and not look cluttered and cramped */
+-->
+
+<!-- ============================================ -->
+<!--                    CTA                       -->
+<!-- ============================================ -->
+
+<section id="promotions-1583">
+  <div class="cs-container">
+    <div class="cs-content">
+      <h2 class="cs-title">
+        Crafted with an unwavering dedication to quality and style
+      </h2>
+      <a href="" class="cs-button-solid">Shop Now</a>
+    </div>
+    <!-- Wrapper in a wrapper div so we can apply overlfow hidden to this div to cut off the overflow on the right edge at 1024px wide and not clip the overflow that hangs over the bottom -->
+    <div class="cs-wrapper">
+      <div class="cs-image-group">
+        <!--Product Image, to get transparent PNG's of your products with a background, we use https://www.remove.bg/ to remove the images. They will come with empty space around them, to remove this empty space, crop your image to only the edges of the actual image. Or open it in GIMP photo editing software, at the top nav click on "Image" then "Crop to content" and this will remove the empty space around the PNG. Then export as a PNG to your project folder and you're done!-->
+        <picture class="cs-picture">
+          <source
+            media="(max-width: 600px)"
+            srcset="
+              https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/lure3.png
+            "
+          />
+          <source
+            media="(min-width: 601px)"
+            srcset="
+              https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/lure3.png
+            "
+          />
+          <img
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/lure3.png"
+            alt="lure"
+            width="771"
+            height="488"
+            aria-hidden="true"
+          />
+        </picture>
+        <div class="cs-price-box">
+          <!--Price Star-->
+          <svg
+            class="cs-star"
+            width="183"
+            height="183"
+            viewBox="0 0 183 183"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M106.942 0.641784L111.509 31.9019L134.192 9.9126L128.875 41.054L157.243 27.1504L142.564 55.1248L173.84 50.6679L151.234 72.7369L182.357 78.1629L154.038 92.1663L181.961 106.944L150.7 111.511L172.69 134.194L141.548 128.878L155.452 157.246L127.478 142.566L131.934 173.842L109.865 151.237L104.439 182.359L90.4361 154.04L75.6582 181.963L71.0912 150.703L48.4081 172.692L53.7246 141.551L25.3566 155.454L40.0361 127.48L8.76008 131.937L31.3656 109.868L0.243131 104.442L28.562 90.4384L0.639466 75.6605L31.8996 71.0936L9.91029 48.4105L41.0517 53.7269L27.1481 25.3589L55.1225 40.0384L50.6655 8.7624L72.7345 31.3679L78.1606 0.245449L92.164 28.5643L106.942 0.641784Z"
+              fill="var(--starColor)"
+            />
+          </svg>
+          <span class="cs-price">
+            20%
+            <span class="cs-desc">Off</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Background Image-->
+  <picture class="cs-background">
+    <source
+      media="(max-width: 600px)"
+      srcset="
+        https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Landscapes/waves.jpg
+      "
+    />
+    <source
+      media="(min-width: 601px)"
+      srcset="
+        https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Landscapes/waves.jpg
+      "
+    />
+    <img
+      loading="lazy"
+      decoding="async"
+      src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Landscapes/waves.jpg"
+      alt="waves"
+      width="1920"
+      height="660"
+      aria-hidden="true"
+    />
+  </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                    Blog                      -->
+<!-- ============================================ -->
+
+<section id="blog-1654">
+  <div class="cs-container">
+    <div class="cs-content">
+      <picture class="cs-picture">
+        <!--Mobile Image-->
+        <source
+          media="(max-width: 600px)"
+          srcset="
+            https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/business-meeting-women.jpeg
+          "
+        />
+        <!--Tablet and above Image-->
+        <source
+          media="(min-width: 601px)"
+          srcset="
+            https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/business-meeting-women.jpeg
+          "
+        />
+        <img
+          loading="lazy"
+          decoding="async"
+          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/business-meeting-women.jpeg"
+          alt="busines meeting"
+          width="413"
+          height="652"
+          aria-hidden="true"
+        />
+      </picture>
+      <div class="cs-text-wrapper">
+        <span class="cs-topper">Our Blog</span>
+        <h2 class="cs-title">Latest News</h2>
+      </div>
+    </div>
+    <div class="cs-posts">
+      <ul class="cs-card-group">
+        <li class="cs-item">
+          <picture class="cs-image" aria-hidden="true">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/windmill.png
+              "
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/windmill.png
+              "
+            />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/windmill.png"
+              alt="windmill"
+              width="413"
+              height="320"
+            />
+          </picture>
+          <div class="cs-flex">
+            <span class="cs-date">29 Oct, 2023</span>
+            <h3 class="cs-h3">
+              With more than 100 highly experienced professionals averaging 29+
+              years of experience.
+            </h3>
+            <p class="cs-item-text">
+              In industry best practices and lessons learned, we provide
+              value-added services and solutions to a wide variety of industry,
+              both onshore and...
+            </p>
+            <a href="" class="cs-link">
+              Get Started
+              <img
+                class="cs-arrow"
+                loading="lazy"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-right-arrow.svg"
+                alt="icon"
+                width="20"
+                height="20"
+                aria-hidden="true"
+              />
+            </a>
+          </div>
+        </li>
+        <li class="cs-item">
+          <picture class="cs-image" aria-hidden="true">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/fire-hydrant.png
+              "
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/fire-hydrant.png
+              "
+            />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/fire-hydrant.png"
+              alt="fire hydrant"
+              width="413"
+              height="320"
+            />
+          </picture>
+          <div class="cs-flex">
+            <span class="cs-date">26 Oct, 2023</span>
+            <h3 class="cs-h3">
+              Consulting and training firm that specia lizes in process safety,
+              risk manage ment, occupational health
+            </h3>
+            <p class="cs-item-text">
+              Risk management, occupational health and safety, fire protection,
+              emergency and crisis management, and security risk management...
+            </p>
+            <a href="" class="cs-link">
+              Get Started
+              <img
+                class="cs-arrow"
+                loading="lazy"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-right-arrow.svg"
+                alt="icon"
+                width="20"
+                height="20"
+                aria-hidden="true"
+              />
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+{% include 'components/cta.html' %} {% endblock %}

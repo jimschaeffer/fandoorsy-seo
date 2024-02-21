@@ -1,0 +1,15 @@
+{
+  "name": "Fandoorsy",
+  "email": "info@fandoorsy.com",
+  "phoneForTel": "",
+  "phoneFormatted": "",
+  "address": {
+    "lineOne": "",
+    "lineTwo": "",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "80206",
+    "mapLink": ""
+  },
+  "domain": "https://www.fandoorsy.com"
+}
